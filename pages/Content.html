@@ -4,26 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moon</title>
-   <link rel="stylesheet" href="../styel/Header.css">
+    <link rel="stylesheet" href="../style/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/Content.css">
 </head>
 <body>
-    <div class="containr">
-        <header>
-                <img class="all" class="menu" src="./img/Menu.png" alt="menu">
-            <img src="../img/logo (1).png" alt="">
-            <nav>
-                <a href="../index.html">Home</a>
-                <a href="./Shop.html">Shop</a>
-                <a href="./About.html">About</a>
-                <a href="#">Contact</a>
+    <div class="container-fluid">
+        <header class="d-flex w-100 justify-content-between border-5 align-items-center">
+            <img class="d-flex d-lg-none " src="../img/Menu.png" alt="menu">
+            <img src="../img/logo.png" alt="img-logo">
+            <nav class="d-none d-lg-flex align-items-center gap-60 ">
+                <a href="../index.html" class="text-decoration-none fw-normal">Home</a>
+                <a href="./Shop.html" class="text-decoration-none fw-normal">Show</a>
+                <a href="./About.html" class="text-decoration-none fw-normal">About</a>
+                <a href="#" class="text-decoration-none fw-normal">Contact</a>
             </nav>
-            <div class="icons">
-                <img class="normal" src="../img/Search.jpg" alt="img-search">
-                <img class="normal" src="../img/Avatar.png" alt="img-Avatar">
-                <img class="normal" src="../img/Heart.png" alt="img-Heart">
-                <img src="../img/Shopping-cart.png" alt="img-Shopping">
+            <div class="icons d-flex gap-4 align-items-center">
+                <img class="d-none d-lg-flex" src="../img/Search.jpg" alt="">
+                <img class="d-none d-lg-flex" src="../img/Avatar.png" alt="">
+                <img class="d-none d-lg-flex" src="../img/Heart.png" alt="">
+                <img src="../img/Shopping-cart.png" alt="">
             </div>
         </header>
     </div>
+    <div class="hero-sec w-100  position-relative ">
+        <img class="img-sm w-100 h-100" src="../img/img-hero.jpg" alt="img-hero">
+        <div class="config d-flex flex-column  align-items-center position-absolute top-0 end-165">
+            <img class="w-25" src="../img/Icon (6).png" alt="#">
+            <h2 class="fw-bold  border-bottom fs-36">CONTACT US</h2>
+            <div class="social-media">
+                <p class="text-white fw-bolder text-center">Follow us on social media</p>
+                <div class="d-flex gap-3 justify-content-center align-items-center">
+                    <a href="#"><img src="../img/Facebook.png" alt=""></a>
+                    <a href="#"><img src="../img/Twitter.png" alt=""></a>
+                    <a href="#"><img src="../img/Instagram.png" alt=""></a>
+                    <a href="#"><img src="../img/Linkind.png" alt=""></a>
+                    <a href="#"><img src="../img/YouTube.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="Get-in ">
+            <h3 class="text-center fw-bold fs-36 text-uppercase">Get in touch with us</h3>
+            <p class="text-center fw-normal ">Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.</p>
+        </div>
+    </main>
+    
+
+
+
+
+
+
+
+
+
+
+    <script src="./script/bootstrap.bundle.min.js"></script>
 </body>
 </html>
